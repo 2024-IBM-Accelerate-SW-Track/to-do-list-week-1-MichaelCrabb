@@ -1,0 +1,17 @@
+.thanks {
+    display: flex;
+    flex-direction: column;
+    min-height: 93vh;
+    background-image: url("../assets/party.png");
+    background-size: 100%;
+    background-position-y: 50%;
+}
+
+.content {
+    position: relative;
+    transform: translate(0%, 50%);
+}
+
+.text {
+    font-size: 25px;
+}

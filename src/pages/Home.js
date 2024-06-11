@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AddTodo from "../component/AddTodo.js";
 import Todos from "../component/todos.js";
+import Footer from "../component/footer.js";
 import "./Home.css";
 
 class Home extends Component {
@@ -40,6 +41,7 @@ class Home extends Component {
         <Todos todos={[...this.state.todos]} removeTodo={this.removeTodo}/>
         <AddTodo addTodo={this.addTodo} />
         <h1>Todo List</h1>
+        <Footer /> {this.footer}
       </div>
     );
   }
